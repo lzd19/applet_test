@@ -1,0 +1,3 @@
+<button bindtap="upImg">点击上传图片</button>
+<image src="{{AddImg}}"></image>
+<button bindtap="upVedio">点击上传视频</button>
