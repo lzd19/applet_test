@@ -53,6 +53,13 @@
 					"id": -1,
 					"name": "pages/upimg/upimg",
 					"pathName": "pages/upimg/upimg",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/index",
+					"pathName": "pages/index/index",
 					"scene": null
 				}
 			]
