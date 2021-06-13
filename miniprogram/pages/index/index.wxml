@@ -1,0 +1,16 @@
+<button bindtap="Add">云函数获取加法</button>
+<button bindtap="Getop">获取用户id</button>
+<button bindtap="shujuku">通过数据库api获取数据</button>
+<view wx:for="{{massage}}" wx:key="item">
+  <view class="item">
+  <view>{{item.name}}</view>
+  <view>{{item.age}}</view>
+  </view>
+</view>
+<button bindtap="yunhanshu">通过云函数获取数据</button>
+<view wx:for="{{massage}}" wx:key="item">
+  <view class="item">
+  <view>{{item.name}}</view>
+  <view>{{item.age}}</view>
+  </view>
+</view>

@@ -1,0 +1,3 @@
+<block class="ll" wx:for="{{list}}" wx:key="index">
+  <view class="qq"><text>{{item._id}}</text></view>
+</block>

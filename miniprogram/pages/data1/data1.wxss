@@ -1,0 +1,6 @@
+.qq{
+  height: 120rpx;
+  border-bottom: 1px solid gray;
+  text-align: center;
+  line-height: 120rpx;
+}
