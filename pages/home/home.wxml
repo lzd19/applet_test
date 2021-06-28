@@ -1,0 +1,18 @@
+<!-- 轮播图 -->
+<swiper indicator-dots circular>
+  <swiper-item wx:for="{{swiperList}}" wx:key="id">
+    <image src="{{item.image}}"></image>
+  </swiper-item>
+</swiper>
+<!-- 九宫格 -->
+<view class="grid-list">
+  <view class="grid-item" wx:for="{{gridList}}" wx:key="id">
+    <image src="{{item.icon}}"></image>
+    <text>{{item.name}}</text>
+  </view>
+</view>
+<!-- 图片 -->
+<view class="img-box">
+  <image src="/img/1.png" mode="widthFix"></image>
+  <image src="/img/2.png" mode="widthFix"></image>
+</view>

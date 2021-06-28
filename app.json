@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/message/message",
+    "pages/contact/contact"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2b4b6b",
+    "navigationBarTitleText": "本地生活",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "./img/shouye1.png",
+      "selectedIconPath": "./img/shouye2.png"
+
+    },{
+      "pagePath": "pages/message/message",
+      "text": "消息",
+      "iconPath": "./img/xiaoxi1.png",
+      "selectedIconPath": "./img/xiaoxi2.png"
+    },{
+      "pagePath": "pages/contact/contact",
+      "text": "联系我们",
+      "iconPath": "./img/lianxiwomen1.png",
+      "selectedIconPath": "./img/lianxiwomen2.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
